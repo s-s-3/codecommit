@@ -1,6 +1,6 @@
 provider "aws" {
     region = "eu-west-1"
-    profile = "pengiun"
+    profile = "penguin"
 }
 
 resource "aws_codecommit_repository" "default" {
